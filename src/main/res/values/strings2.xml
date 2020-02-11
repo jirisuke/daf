@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">audio-echo</string>
+    <string name="mic_on_off">マイクON/OFF</string>
+    <string name="off">マイクOFF</string>
+    <string name="on">マイクON</string>
+</resources>

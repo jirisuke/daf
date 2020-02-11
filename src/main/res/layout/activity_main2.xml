@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/ms"
+        android:textColor="#000"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:text="@string/左"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/curDelay_L"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_0_ms"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/delaySeekBar_L"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="#ccc"
+        android:max="@android:integer/config_shortAnimTime" />
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/右"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/curDelay_R"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_0_ms" />
+
+    <SeekBar
+        android:id="@+id/delaySeekBar_R"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="#ccc"
+        android:max="@android:integer/config_shortAnimTime" />
+
+    <Button
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/get_parameter_button"
+        android:layout_marginBottom="44dp"
+        android:onClick="onEchoClick"
+        android:text="Start Delay"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/get_parameter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getLowLatencyParameters"
+        android:text="@string/cmd_get_param"
+        android:textAllCaps="false" />
+
+    <TextView android:text="@string/init_status_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:id="@+id/statusView"
+        />
+
+</LinearLayout>

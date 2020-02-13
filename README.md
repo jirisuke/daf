@@ -1,9 +1,9 @@
 This app is based on the following "Audio-Echo".
 The following four points have been changed.
-Improvement 1 Delay adjustment was enabled on the left and right.
-Improvement 2 The delay interval was changed from 100 [ms] to 1 [ms].
-Improvement 3 The maximum delay was changed from 1000 [ms] to 200 [ms].
-Improvement 4 UI
+Improvement ① Delay adjustment was enabled on the left and right.
+Improvement ② The delay interval was changed from 100 [ms] to 1 [ms].
+Improvement ③ The maximum delay was changed from 1000 [ms] to 200 [ms].
+Improvement ④ UI
 
 Source can be found at:
 https://github.com/android/ndk-samples/tree/master/audio-echo

@@ -1,4 +1,5 @@
 This app is based on the following "Audio-Echo".
+I changed "Audio-Echo" to relieve stuttering
 The following four points have been changed.
 Improvement ① Delay adjustment was enabled on the left and right.
 Improvement ② The delay interval was changed from 100 [ms] to 1 [ms].

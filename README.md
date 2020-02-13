@@ -1,3 +1,14 @@
+This app is based on the following "Audio-Echo".
+The following four points have been changed.
+Improvement 1 Delay adjustment was enabled on the left and right.
+Improvement 2 The delay interval was changed from 100 [ms] to 1 [ms].
+Improvement 3 The maximum delay was changed from 1000 [ms] to 200 [ms].
+Improvement 4 UI
+
+Source can be found at:
+https://github.com/android/ndk-samples/tree/master/audio-echo
+
+----------------------------------------------------------------------------------------------------------------------------------------
 Audio-Echo
 ==========
 The sample demos how to use OpenSL ES to create a player and recorder in Android Fast Audio Path, and connect them to loopback audio. On most android devices, there is a optimized audio path that is tuned up for low latency purpose. The sample creates player/recorder to work in this highly optimized audio path(sometimes called native audio path, [low latency path](http://stackoverflow.com/questions/14842803/low-latency-audio-playback-on-android?rq=1), or fast audio path). The application is validated against the following configurations:
